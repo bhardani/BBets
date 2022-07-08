@@ -88,11 +88,12 @@ LCL = mean(saveBank) - 2*sd(saveBank)
 UCL = mean(saveBank) + 2*sd(saveBank)
 print(LCL)
 print(UCL)
+sd(saveBank)
 ```
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
 
-when 40 substutues do this method, the mean is -14
+when 40 substutues do this method, the mean is -14. Our standatd deviation is 36.57
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
@@ -135,7 +136,7 @@ hist(saveBank)
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
-The numClass would be 28.3 to get the earnings down to -14 whitch is the closest number to 0 i can get giving fair odds
+The numClass would be 28.3 to get the earnings down to -14 witch is the closest number to 0 i can get giving fair odds
 
 
 
@@ -147,4 +148,4 @@ The numClass would be 28.3 to get the earnings down to -14 whitch is the closest
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
-he could change his payout by changing the number of students
+he could change his payout by changing the number of students or the odds ratio. The class size should be 28.3.
