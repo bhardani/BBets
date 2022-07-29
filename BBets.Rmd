@@ -58,6 +58,7 @@ saveBank[k] = bank
 
 hist(saveBank)
 ```
+They expect to make an average of `r mean(saveBank)`
 
 ## Question 1 find fair odds
 
@@ -76,7 +77,7 @@ print(mean(saveBank))
 hist(saveBank)
 ```
 
-To make the game fair, Dr.Brownlow should pay out 'r mean(saveBank)
+To make the game fair, Dr.Brownlow should pay out `r mean(saveBank)` The 95% confidence interval is (`r LCL`,`r UCL`)
 
 # In the class and payoff as described  If you highered 40 brownlow substitute teachers to do the same thing that Brownlow did then.
 ## what is their average earnings
@@ -90,10 +91,11 @@ print(LCL)
 print(UCL)
 sd(saveBank)
 ```
+  to make the game fair, he should make the odds 1 : `r odds`
   
 <!--Explain and display your method of coming up with a 95% confidence interval of  professor Brownlows winnings (or losings)-->
 
-when 40 substutues do this method, the mean is -14. Our standatd deviation is 36.57
+when 40 substutues do this method, the mean is -14(earnings). Our standatd deviation is 36.57
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
@@ -137,9 +139,6 @@ hist(saveBank)
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
 The numClass would be 28.3 to get the earnings down to -14 witch is the closest number to 0 i can get giving fair odds
-
-
-
 
 
 
